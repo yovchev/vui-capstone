@@ -3,6 +3,9 @@
 [image1]: ./images/pipeline.png "ASR Pipeline"
 [image2]: ./images/select_kernel.png "select aind-vui kernel"
 
+## To start the project
+use this in the comand line `docker-compose up`
+
 ## Project Overview
 
 In this notebook, you will build a deep neural network that functions as part of an end-to-end automatic speech recognition (ASR) pipeline!  

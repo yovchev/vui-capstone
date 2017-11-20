@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+
+  aind:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/project
+    ports:
+      - "8888:8888"
