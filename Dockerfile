@@ -1,5 +1,5 @@
-# Use an official Python runtime as a parent image
-FROM python:3.5
+# Use an official nvidia tensorflow image
+FROM tensorflow/tensorflow
 
 # Set the working directory to /
 WORKDIR /build
